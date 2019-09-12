@@ -14,7 +14,7 @@ Page({
        * 初始化时不默认选中当天，则将该值配置为false。
        */
       //defaultDay: '2019-09-16',
-      multi: true, // 是否开启多选,
+      multi: 2, // 是否开启多选,
       theme: 'elegant', // 日历主题，目前共两款可选择，默认 default 及 elegant，自定义主题在 theme 文件夹扩展
       inverse: true, // 单选模式下是否支持取消选中,
       takeoverTap: false, // 是否完全接管日期点击事件（日期不会选中），配合 onTapDay() 使用
@@ -75,13 +75,13 @@ Page({
         year: 2019,
         month: 9,
         day: 8,
-        todoText: '厦门-金门'
+        todoText: '厦门-大麦屿'
       },
       {
         year: 2019,
         month: 9,
         day: 15,
-        todoText: '厦门-台北'
+        todoText: '厦门-大麦屿'
       }
       ]
     });
